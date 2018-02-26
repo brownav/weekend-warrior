@@ -6,7 +6,7 @@ require_relative 'leap'
 # This Date class can be safely ignored.
 # It prevents using the Date class' leap? method.
 class Date
-  def leap_year?(year)
+  def leap?(year)
     throw "Implement this yourself instead of using Ruby's implementation."
   end
 
